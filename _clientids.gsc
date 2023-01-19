@@ -3200,7 +3200,15 @@ start_round_20()
     Sba("Start Round Set: 20");
     setDvar( "start_round", 20 );
 }
-
+start_round_25()
+{
+    Sba("Start Round Set: 25");
+    setDvar("start_round", 25 );
+}
+start_round_30()
+    Sba("Start Round Set: 30");
+    setDvar("start_round", 30 );
+}
 // player health
 player_health_100()
 {
