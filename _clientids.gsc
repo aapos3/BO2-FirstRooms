@@ -913,7 +913,7 @@ starting_round()
 	else if( getDvarInt( "start_round") == 20)
 	{
 		level.round_number = 20;
-		level.zombie_vars["zombie_spawn_delay"] = 0.755; // round 20 spawn rate
+		level.zombie_vars["zombie_spawn_delay"] = 0; // round 20 spawn rate
 	}
 	level.zombie_move_speed = 105; // running speed
 	level.first_round = 0; // fix first round bug
